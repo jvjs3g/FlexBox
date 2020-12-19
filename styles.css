@@ -1,31 +1,12 @@
-html, body, #app {
-  height: 100%;
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#app {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content:center;
-}
-
-.box {
-  width:1000px;
-  height:60px;
-  background: red;
-  margin: 5px;
-}
-
-.red {
-  order: 1;
-}
-
-.green {
-  background: #0f0;
-  order: 2;
-}
-
-.blue {
-  background:#00f;
-  order: 3;
+body {
+  background: #e6ecf0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing:antialiased !important;
 }
