@@ -15,3 +15,17 @@ html, body, #app {
   background: red;
   margin: 5px;
 }
+
+.red {
+  order: 1;
+}
+
+.green {
+  background: #0f0;
+  order: 2;
+}
+
+.blue {
+  background:#00f;
+  order: 3;
+}
