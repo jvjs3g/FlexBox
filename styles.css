@@ -5,6 +5,8 @@ html, body, #app {
 
 #app {
   display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
 }
 
 .box {
@@ -12,5 +14,4 @@ html, body, #app {
   height:60px;
   background: red;
   margin: 5px;
-  flex:1 ;
 }
